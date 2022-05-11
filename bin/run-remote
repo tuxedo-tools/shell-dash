@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 # Sync local directory to remote server and execute argument command
 
+# Used environment variables:
+# RUN_HOST
+# RUN_USER
+# RUN_PATH
 set -eo pipefail
 
+ssh "${RUN_USER}@${RUN_HOST}" "cd ${RUN_PATH} && $@"
