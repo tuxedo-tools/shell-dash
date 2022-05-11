@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Sync local directory to remote server and execute argument command
+
+set -eo pipefail
+
