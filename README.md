@@ -21,4 +21,4 @@ cd ~/.shell-dash && git pull origin main
 
 ## License
 
-This code is released under the MIT License. See [LICENSE.txt](LICENSE.txt).
+This code is released under the MIT License. See [LICENSE](LICENSE).
