@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # Show last git tag
 
+git describe --tags $(git rev-list --tags --max-count=1)
