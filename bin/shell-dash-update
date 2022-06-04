@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Update Shell Dash to to last version
+
+cd ~/.shell-dash && git pull origin main
+
