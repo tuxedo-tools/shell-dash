@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Generate git tag based on current branch state
+
+export GIT_ABBREV=${GIT_ABBREV:-12}
+
+git describe --tags --abbrev=12 --dirty --broken
