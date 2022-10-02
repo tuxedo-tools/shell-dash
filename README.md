@@ -10,7 +10,7 @@ git clone https://github.com/tuxedo-tools/shell-dash.git ~/.shell-dash
 ```
 2. Add bin directory to path:
 ```
-echo 'export PATH="$HOME/.shell-dash/bin:$PATH"' >> ~/.bash_profile
+echo 'export PATH="$HOME/.shell-dash/bin:$PATH"' >> ~/.bashrc
 ```
 
 ## Update
